@@ -34,13 +34,16 @@ export class UserPage {
 
   doGoogleLogout(){
     let nav = this.navCtrl;
-    this.googlePlus.logout()
-    .then((response) => {
-      this.nativeStorage.remove('user');
-      nav.push(LoginPage);
-    },(error) => {
-      console.log(error);
+    this.googlePlus.trySilentLogin({}).then(res => { 
+      this.googlePlus.logout()
+      .then((response) => {
+        this.nativeStorage.remove('user');
+        nav.push(LoginPage);
+      },(error) => {
+        console.log(error);
+      })
     })
+   
   }
 
 }
