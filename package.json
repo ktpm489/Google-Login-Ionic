@@ -28,6 +28,7 @@
         "@ionic/angular": "4.0.0-beta.17",
         "cordova-android": "^7.1.2",
         "cordova-ios": "4.5.5",
+        "cordova-plugin-certificates": "^0.6.4",
         "cordova-plugin-device": "^2.0.2",
         "cordova-plugin-googleplus": "^5.3.2",
         "cordova-plugin-ionic-keyboard": "^2.1.3",
@@ -70,8 +71,8 @@
     "cordova": {
         "plugins": {
             "cordova-plugin-googleplus": {
-                "REVERSED_CLIENT_ID": "com.googleusercontent.apps.401245627689-4ceut94d75nmslud8un0lafphp6mm6ph",
-                "PLAY_SERVICES_VERSION": "11.8.0"
+                "REVERSED_CLIENT_ID": "com.googleusercontent.apps.756598334888-j3idac3brsc2cm63i2653qdt5levj7c3",
+                "WEB_APPLICATION_CLIENT_ID": "56598334888-j3idac3brsc2cm63i2653qdt5levj7c3.apps.googleusercontent.com"
             },
             "cordova-plugin-whitelist": {},
             "cordova-plugin-statusbar": {},
@@ -81,7 +82,8 @@
                 "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
             },
             "cordova-plugin-ionic-keyboard": {},
-            "cordova-plugin-nativestorage": {}
+            "cordova-plugin-nativestorage": {},
+            "cordova-plugin-certificates": {}
         },
         "platforms": [
             "android",
