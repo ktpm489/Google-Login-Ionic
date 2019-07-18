@@ -38,6 +38,13 @@ Follow the steps from https://beta.ionicframework.com/docs/building/android
 `$ ionic cordova prepare android`
 `$ ionic cordova run android`
 
+Project is used only debug mode
+`$ ionic cordova run <ios or android> --device -l --debug `
+
+`sudo ionic cordova run ios
+sudo ionic cordova emulate ios ---UseModernBuildSystem=0
+`
+
 ### Get a professional Ionic 4 Starter App
 Did you know that we recently released [Ionic 4 Full Starter App](https://ionicthemes.com/product/ionic4-full-starter-app)? It's an ionic 4 template that you can use to jump start your Ionic app development and save yourself hundreds of hours of design and development.
 
